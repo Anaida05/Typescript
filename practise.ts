@@ -37,3 +37,38 @@ let users: Person = {
   age: 30
 };
 
+
+
+function double(x : number) {
+  return x * 2;
+}
+
+double(4)
+
+
+function sayHello(name : string) {
+  return "Hi, " + name + "!";
+}
+
+sayHello("Anaida")
+
+
+function isEven(n : number) {
+  return n % 2 === 0;
+}
+
+isEven(6)
+
+
+function greeting(age: number): string {
+  return "You are " + age.toUpperCase() + " years old"; 
+}
+
+greeting(10)
+
+
+function add(x: string, y: string): number {
+  return x + y;
+}
+
+add("1","29")
