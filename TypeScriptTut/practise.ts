@@ -61,14 +61,15 @@ isEven(6)
 
 
 function greeting(age: number): string {
-  return "You are " + age.toUpperCase() + " years old"; 
+  // return "You are " + age.toUpperCase() + " years old"; 
+  return ""
 }
 
 greeting(10)
 
 
-function add(x: string, y: string): number {
-  return x + y;
-}
+// function add(x: string, y: string): number {
+//   return x + y;
+// }
 
-add("1","29")
+// add("1","29")
