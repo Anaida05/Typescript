@@ -45,7 +45,7 @@ class Person1 {
 
 const p1 = new Person1("123-45-6789");
 console.log(p1.showInfo());
-console.log(p1.ssn);
+// console.log(p1.ssn);
 
 //unknown
 let value: unknown;
